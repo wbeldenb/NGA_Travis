@@ -30,13 +30,13 @@ public class Calculator extends Application{
         scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
         grid.add(scenetitle, 0, 0, 2, 1);
 
-        Label userName = new Label("First Number:");
+        Label userName = new Label("Number #1:");
         grid.add(userName, 0, 1);
 
         TextField userTextField = new TextField();
         grid.add(userTextField, 1, 1);
 
-        Label pw = new Label("Second Number:");
+        Label pw = new Label("Number #2:");
         grid.add(pw, 0, 2);
 
         TextField pwBox = new TextField();
